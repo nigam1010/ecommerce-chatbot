@@ -62,6 +62,7 @@ python app.py          # Starts server at localhost:5000
 
 ---
 ## 2. Frontend (React)
+```bash
 cd frontend
 npm install
 npm start   
