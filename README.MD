@@ -51,15 +51,16 @@ backend/
 
 ## 🚀 How to Run Locally
 
-### 
-1. Backend (Flask)
+---
+
+## 1. Backend (Flask)
 ```bash
 cd backend
 pip install -r requirements.txt
 python db_init.py      # Generates 100 mock products
 python app.py          # Starts server at localhost:5000
-
-### 2. Frontend (React)
+---
+2. Frontend (React)
 cd frontend
 npm install
 npm start   
