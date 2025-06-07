@@ -60,12 +60,12 @@ pip install -r requirements.txt
 python db_init.py      # Generates 100 mock products
 python app.py          # Starts server at localhost:5000
 ---
-2. Frontend (React)
+## 2. Frontend (React)
 cd frontend
 npm install
 npm start   
-### 
-✅ Login Credentials
+---
+## ✅ Login Credentials
 
 Username: admin
 Password: 1234
