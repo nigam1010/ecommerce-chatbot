@@ -120,17 +120,11 @@ The chatbot will fetch products from those categories or with matching keywords 
 
 ### 🔐 Login Screen
 
-![Login Screen](screenshots/image.png)
+![Login Screen](image.png)
 
 ### 🤖 Chatbot Interface
 
-![Chat Interface](screenshots/image-1.png)
-
-### 📦 Product Cards
-
-![Product Cards](screenshots/products.png)
-
-> _Screenshots can be placed in a `screenshots/` folder in your repo._
+![Chat Interface](image-1.png)
 
 ---
 
@@ -161,13 +155,11 @@ The chatbot will fetch products from those categories or with matching keywords 
 
 ## 👤 Author
 
-**Yogaraja Adithya Somasundar**  
-Berlin, Germany  
-Full Stack Intern Applicant — [Uplyft.ai](https://www.linkedin.com/company/uplyft-ai/)
+**Karinigam S A**  
 
 ---
 
-## 📂 Submission Deliverables
+
 
 - ✅ GitHub Repository (source code + README)
 - ✅ Project Report (PDF)
