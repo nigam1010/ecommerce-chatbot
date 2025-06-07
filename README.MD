@@ -46,7 +46,7 @@ This is a full-stack chatbot application built as part of the **Uplyft.ai Full S
 
 ### Frontend – React App
 
-\`\`\`
+
 frontend/
 ├── src/
 │   ├── components/
@@ -55,11 +55,11 @@ frontend/
 │   ├── App.jsx
 │   ├── styles.css          # Global styles
 │   └── index.js
-\`\`\`
+
 
 ### Backend – Flask App
 
-\`\`\`
+
 backend/
 ├── app.py                  # Main Flask app with /api/products
 ├── db_init.py              # Script to populate the database
@@ -67,7 +67,7 @@ backend/
 ├── config.py               # Config constants
 ├── database.db             # SQLite DB (auto-created)
 └── requirements.txt        # Backend dependencies
-\`\`\`
+
 
 ---
 
