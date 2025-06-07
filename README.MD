@@ -163,4 +163,3 @@ The chatbot will fetch products from those categories or with matching keywords 
 
 - ✅ GitHub Repository (source code + README)
 - ✅ Project Report (PDF)
-- ✅ Presentation Slides (PPT)
