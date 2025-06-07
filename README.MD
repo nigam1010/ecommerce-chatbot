@@ -120,11 +120,11 @@ The chatbot will fetch products from those categories or with matching keywords 
 
 ### 🔐 Login Screen
 
-![Login Screen](screenshots/login.png)
+![Login Screen](screenshots/image.png)
 
 ### 🤖 Chatbot Interface
 
-![Chat Interface](screenshots/chat.png)
+![Chat Interface](screenshots/image-1.png)
 
 ### 📦 Product Cards
 
