@@ -1,0 +1,103 @@
+📄 Uplyft.ai Full Stack Internship – Project Report
+🛠️ Project Title:
+E-commerce Sales Chatbot
+
+📌 Objective:
+To build a full-stack chatbot application that enables users to search for products on an e-commerce platform through natural interaction. The chatbot retrieves relevant product data in real time via a RESTful backend and displays it in a user-friendly interface.
+
+🧱 Tech Stack Overview:
+Layer	Tool / Framework	Purpose
+Frontend	React, CSS	Chatbot UI & user interaction
+Backend	Flask (Python)	API server + product query handling
+Database	SQLite	Mock product inventory storage
+Mock Data	Faker	Generate 100 random product entries
+Other	Axios, LocalStorage	API calls, chat history persistence
+
+🖥️ System Architecture:
+scss
+Copy
+Edit
+User
+  ⬇
+React Frontend (Chatbot, Login)
+  ⬇
+Axios → Flask REST API (`/api/products?query=...`)
+  ⬇
+SQLite Database (Mock Products)
+🔐 Authentication:
+A simple login screen accepts mock credentials:
+
+Username: admin
+
+Password: 1234
+
+Upon successful login, users are redirected to the chatbot.
+
+💬 Chatbot Features:
+Natural language search (e.g., “Books”, “Electronics”)
+
+Product results shown as cards with:
+
+Name
+
+Category
+
+Price
+
+Description
+
+Chat messages with timestamps
+
+Session persists via browser localStorage
+
+Reset button to clear chat history
+
+🧪 Sample Query Flow:
+Input	Bot Response
+books	“Here are some products I found:” + 5 product cards
+matrix	Relevant products containing matrix
+textiles	Products in “Textiles” category
+
+🗃️ Database Snapshot:
+Table: products
+
+Columns: id, name, category, price, description, stock
+
+Generated: Using Python faker with 3 categories:
+
+Books
+
+Electronics
+
+Textiles
+
+📸 UI Screenshots:
+📌 (To be added by user in PDF editor: login screen, chatbot interaction, product cards)
+
+🧠 Challenges & Solutions:
+Challenge	Solution
+Matching user queries to random product names	Extended SQL search to name, category, and description using LIKE
+Maintaining chat across reloads	Used localStorage + React state + useEffect()
+Styling for mobile/desktop	Used responsive CSS with flexbox and gradients
+
+📚 Learnings:
+End-to-end architecture of a chatbot UI + API
+
+Hands-on practice with REST, React hooks, state management
+
+Building from scratch using only essential libraries
+
+Preparing professional project deliverables
+
+📦 Deliverables:
+Item	Status
+GitHub Repo	✅ Complete
+README.md	✅ Complete
+Project Report	✅ This document
+Presentation	🔜 Next step
+
+👤 Author
+Karinigam S A
+email: karinigam.sa@cmr.edu.in
+       karinigam03@gmail.com
+github: github.com/nigam1010
