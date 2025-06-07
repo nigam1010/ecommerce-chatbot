@@ -75,7 +75,7 @@ backend/
 
 ### Backend (Flask)
 
-\`\`\`bash
+\`\`\`
 cd backend
 pip install -r requirements.txt
 python db_init.py         # Creates DB with 100+ mock products
