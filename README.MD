@@ -75,20 +75,20 @@ backend/
 
 ### Backend (Flask)
 
-\`\`\`
+
 cd backend
 pip install -r requirements.txt
 python db_init.py         # Creates DB with 100+ mock products
 python app.py             # Starts Flask server at http://localhost:5000
-\`\`\`
+
 
 ### Frontend (React)
 
-\`\`\`bash
+
 cd frontend
 npm install
 npm start                 # Starts React app at http://localhost:3000
-\`\`\`
+
 
 ---
 
